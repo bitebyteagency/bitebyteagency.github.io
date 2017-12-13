@@ -20,48 +20,48 @@ const myProjects = [
   {
     ID: "-aboutUs",
     category: "About Us",
-    bImage: "https://static.pexels.com/photos/296881/pexels-photo-296881.jpeg",
+    bImage: "https://image.ibb.co/kg8h2w/pexels_photo_540518_min.jpg",
     copy:
       `<h1>Something</h1> <p>Curabitur rutrum, pellentesque ipsum hendrerit. Nulla eu. In ipsum ac ultrices eget pretium, dictum velit a. Arcu aliquam nunc consectetuer. Mauris quisque interdum integer mauris fusce. Quam tellus molestie lobortis at diam, ut ac suscipit ante purus, auctor nec iaculis libero leo i</p><p>Lorem ipsum dolor sit amet, vehicula ullamco vel nullam, non vulputate purus sit vel est, egestas nec a.</p> <p>Curabitur rutrum, pellentesque ipsum hendrerit. Nulla eu. In ipsum ac ultrices eget pretium, dictum velit a. Arcu aliquam nunc consectetuer. Mauris quisque interdum integer mauris fusce. Quam tellus molestie lobortis at diam, ut ac su
     scipit ante purus, auctor nec iaculis libero leo i</p><p>Lorem ipsum dolor sit amet, vehicula ullamco vel nullam, non vulputate purus sit vel est, egestas nec a.</p> <p>Curabitur rutrum, pellentesque ipsum hendrerit. Nulla eu. In ipsum ac ultrices eget pretium, dictum velit a. Arcu aliquam nunc consectetuer. Mauris quisque interdum integer mauris fusce. Quam tellus molestie lobortis at diam, ut ac suscipit ante purus, auctor nec iaculis libero leo i</p><p>Lorem ipsum dolor sit amet, vehicula ullamco vel nullam, non vulputate purus sit vel est, egestas nec a.</p> <p>Curabitur rutrum, pellentesque ipsum hendrerit. Nulla eu. In ipsum ac ultrices eget pretium, dictum velit a. Arcu aliquam nunc consectetuer. Mauris quisque interdum integer mauris fusce. Quam tellus molestie lobortis at diam, ut ac suscipit ante purus, auctor nec iaculis libero leo i</p>`
   },
   {
     ID: "-Services",
-    category: "services",
+    category: "Services",
     bImage:
-      "https://static.pexels.com/photos/373965/pexels-photo-373965.jpeg",
+      "https://image.ibb.co/kg8h2w/pexels_photo_540518_min.jpg",
     copy:
       "<h1>Long-term relationship</h1><p>Development isn’t a service - it’s a way of living. It’s that part of your business that is always in view. Of your customers, of your partners, your employees, your family. Of you. That’s why hit-and-run is never an option.</p> <h1>We Can Give Advice</h1> <p>We call the reason why people come to the site a ‘user need’. Answering user needs is the fundamental principle on which we develop digital advice. We use data and research to discover user needs and design content or create tools to fulfil them.</p> <h1>We Write Code That Works</h1> <p>We do not just create websites, we create a connection between people and the world. We are resourceful and creative. We love to innovate. We believe that imagination has no limits. We are always a step forward in the development of new technologies.</p> <h1>We Deliver On Time</h1> <p>We know that time is money in business, so we set realistic deadlines (for ourselves and for our clients) and stick to them. We communicate constantly with our clients to give them updates as we progress and get projects launched by the agreed launch date.</p> "
 
   },
   {
     ID: "-Works",
-    category: "Works",
+    category: "Our Team",
     bImage:
-      "https://static.pexels.com/photos/297755/pexels-photo-297755.jpeg",
+      "https://image.ibb.co/kg8h2w/pexels_photo_540518_min.jpg",
     copy:
       "<h1>Works</h1> <p>First example</p>"
   },
   {
     ID: "-Shares",
-    category: "shares",
+    category: "Category",
     bImage:
-      "https://i0.wp.com/webdesignledger.com/wp-content/uploads/2014/05/7-logo-sketches.jpg?w=970",
+      "https://image.ibb.co/kg8h2w/pexels_photo_540518_min.jpg",
     copy:
       "<p>Lorem ipsum dolor sit amet, vehicula ullamco vel nullam, non vulputate purus sit vel est, egestas nec a.</p> <p>Curabitur rutrum, pellentesque ipsum hendrerit. Nulla eu. In ipsum ac ultrices eget pretium, dictum velit a. Arcu aliquam nunc consectetuer. Mauris quisque interdum integer mauris fusce. Quam tellus molestie lobortis at diam, ut ac suscipit ante purus, auctor nec iaculis libero leo i</p>"
   },
   {
     ID: "-Social",
-    category: "Social",
-    bImage: "http://i.huffpost.com/gen/1644197/images/o-EMAIL-facebook.jpg",
+    category: "Second Category",
+    bImage: "https://image.ibb.co/kg8h2w/pexels_photo_540518_min.jpg",
     copy:
       "</p>"
   },
   {
     ID: "-Contact",
-    category: "Contact",
+    category: "Category 3",
     bImage:
-      "https://static.pexels.com/photos/220197/pexels-photo-220197.jpeg",
+      "https://image.ibb.co/kg8h2w/pexels_photo_540518_min.jpg",
     copy:
       "<h1>Contact</h1> <p>bitebyteagency@gmail.com</p>"
   }
