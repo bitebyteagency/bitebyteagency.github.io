@@ -34,8 +34,10 @@
 @media screen and (max-width: 55em) {
 	.content__title {
 		font-size: 3.5em;
+		text-align: center;
 	}
 	.content__subtitle {
 		font-size: 0.85em;
+		text-align: center;
 	}
 }
