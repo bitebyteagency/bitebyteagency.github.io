@@ -8,11 +8,11 @@
   width: 12px !important;
   height: 10px;
   background-color: #ffffff;
-  border-top: 1px solid #A0D2DB;
+  border-top: 1px solid #9dd3e6;
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #A0D2DB;
+  background-color: #9dd3e6;
   height: 5px;
 }
 
@@ -146,7 +146,7 @@ h2 {
   margin-left: 0px;
   border-radius: 000px;
   opacity: 0.7;
-  background: #A0D2DB;
+  background: #9dd3e6;
 }
 .projects:hover .beforeTitle, .projects.midTransition .beforeTitle {
   opacity: 0;
@@ -162,7 +162,7 @@ h2 {
   margin-left: 0px;
   border-radius: 000px;
   opacity: 0.7;
-  background: #A0D2DB;
+  background: #9dd3e6;
 }
 .projects:hover .info h1, .projects.midTransition .info h1 {
   opacity: 1;

@@ -22,7 +22,7 @@
     }
 
     .navbar button.navbar-toggle {
-        background: #A0D2DB;
+        background: #9dd3e6;
         border-radius: 3px;
     }
 
@@ -48,10 +48,11 @@
         
     }
     .navbar-brand.scrolled{
+      max-width: 20px;
       color:black;
     }
     .navbar.scrolled #signIn {
-        background-color: #A0D2DB;
+        background-color: #9dd3e6;
         border-color: #fff;
         color: black;
 
@@ -73,7 +74,7 @@
     }
 
     #signIn:hover {
-        background-color: #A0D2DB;
+        background-color: #9dd3e6;
         border-color: #fff;
         color: white;
 
@@ -194,35 +195,23 @@ p {
 
 #section-d .box:nth-child(1) {
     margin-right: 1px;
-  background: #A0D2DB;
+  background: #9dd3e6;
 }
 #section-d .box:nth-child(2n) {
     margin-left: 1px;
-  background: #A0D2DB;
+  background: #9dd3e6;
 }
 #section-f .box:nth-child(1) {
   margin-top: 0;
     margin-right: 1px;
-  background: #A0D2DB;
+  background: #9dd3e6;
 }
 #section-f .box:nth-child(2n) {
     margin-left: 1px;
-  background: #A0D2DB;
+  background: #9dd3e6;
   margin-top: 0;
 }
 
-/* Footer */
-#main-footer {
-  padding: 0.5em;
-  background: #000;
-  opacity: 0.3;
-  color: #fff;
-  text-align: center;
-}
-#main-footer a {
-  color: #2690d4;
-  text-decoration: none;
-}
 /* Media Queries */
 @media (min-width: 200px) {
   .grid {
