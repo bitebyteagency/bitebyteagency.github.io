@@ -5,6 +5,7 @@
 .navbar-brand{
   color:white;
 }
+
 .navbar>.container-fluid .navbar-brand {
     margin-left: 15px;
 }
@@ -211,6 +212,9 @@ p {
   background: #9dd3e6;
   margin-top: 0;
 }
+.heading-title {
+    margin-bottom: 100px;
+}
 /*IMAGE */
 .text-center {
     text-align: center;
@@ -326,8 +330,9 @@ p {
     color: #a5a5a5;
     letter-spacing: 1px;
 }
+
 /* Media Queries */
-@media (min-width: 200px) {
+//*@media (min-width: 200px) {
   .grid {
     display: grid;
     grid-template-columns: 1fr repeat(2, minmax(auto, 25em)) 1fr;
@@ -355,4 +360,4 @@ p {
     width: 31%;
   }
 }
-
+*/
