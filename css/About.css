@@ -126,14 +126,18 @@ p {
 }
 .jumbotron {
   margin-bottom: 0px;
-  background-color: #9dd3e6;
+  background:
+  url("https://images.pexels.com/photos/707667/pexels-photo-707667.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb");
+  background-size: cover;
+    background-repeat: no-repeat;
+  background-size: cover;
+    width: 100%;
+    position: absolute;
 }
 .jumbotron .h1, .jumbotron h1{
-  color: black;
+      color: #fff;
 }
-.jumbotron p {
-  color: black;
-}
+
 .boxpF{
   color: #202529;
 }
@@ -371,3 +375,161 @@ p {
   }
 }
 
+.theline span:before, .theline span:after {
+  content: "";
+  position: absolute;
+  border-top: 0.5px groove black;
+  width: 60em;
+  top: 50%;
+}
+
+.theline {
+  overflow: hidden;
+  text-align: center;
+}
+
+.theline span {
+  position: relative;
+}
+
+.theline span:before {
+  right: 100%;
+  margin-right: .5em;
+}
+
+.theline span:after {
+  left: 100%;
+  margin-left: .5em;
+}
+
+::-webkit-scrollbar {
+  width: 12px !important;
+  height: 10px;
+  background-color: #ffffff;
+  border-top: 1px solid #9dd3e6;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #9dd3e6;
+  height: 5px;
+}
+
+
+section {
+  margin: 0 auto;
+  text-align: center;
+  padding: 30px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  color: #333;
+  font-size: 1.825rem;
+  margin: 1.3rem 0;
+}
+
+.section-lead {
+  max-width: 600px;
+  margin: 1rem auto 1.5rem;
+}
+
+.service a {
+  color: #5b7abb;
+  display: block;
+}
+
+.service h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  color: #56ceba;
+  font-size: 1.3rem;
+  margin: 1rem 0 0.6rem;
+}
+
+.services-grid {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+.service {
+  background: #fff;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 4px;
+  text-align: center;
+  -webkit-box-flex: 1;
+  flex: 1;
+  display: -webkit-box;
+  display: flex;
+  flex-wrap: wrap;
+  border: 2px solid #e7e7e7;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.service:hover {
+  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.08);
+  -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.08);
+}
+
+.service i {
+  font-size: 3.45rem;
+  margin: 1rem 0;
+}
+
+.service1 i,
+.service1 h4,
+.service1 .cta {
+  color: #42b7ca;
+}
+
+.service1:hover {
+  border: 2px solid #42b7ca;
+}
+
+.service2 i,
+.service2 h4,
+.service2 .cta {
+  color: #425fca;
+}
+
+.service2:hover {
+  border: 2px solid #425fca;
+}
+
+.service3 i,
+.service3 h4,
+.service3 .cta {
+  color: #9c42ca;
+}
+
+.service3:hover {
+  border: 2px solid #9c42ca;
+}
+
+.service .cta span {
+  font-size: 0.6rem;
+}
+
+.service > * {
+  flex: 1 1 100%;
+}
+
+.service .cta {
+  align-self: flex-end;
+}
+
+@media all and (max-width:900px) {
+  .services-grid {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+  }
+}
