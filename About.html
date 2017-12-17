@@ -37,7 +37,7 @@
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="#showcase">Home</a></li>
                     <li><a href="#main">Projects</a></li>
-                    <li><a href="#projectsApp">About Us</a></li>
+                    <li><a href="#about">About Us</a></li>
                     <li><a href="#team">Team</a></li>
 
                     <button type="button" class="hidden-sm" data-toggle="modal" data-target="#exampleModal" id="signIn">Contact</button>
@@ -81,47 +81,53 @@
       <a class="asl" href="https://www.upwork.com/agencies/~0131e56b512554d15e" target="_blank">Visit</a>    
     </div>
   </section>
-
-  <!-- Section C -->
-  <section id="section-c" class="grid">
-    <div class="content-wrap">
-      <h2 class="content-title">We handle all of your digital needs</h2>
-    </div>
-  </section>
 </main>
+<br>
 
-<!-- Footer -->
-  <section class="container-fluid">
-<div id="projectsApp">
-  
-  <div class="projects" :id="project.ID" v-for="project in projects" :style="{ backgroundImage: 'url(' + project.bImage + ')' }" v-on:click="selectProjects(project.ID)">
-    <h3 class="beforeTitle"> {{ project.category }}</h3>
-    <div class="info">
-      <h1 class="fadeTitle"> {{ project.category }}</h1>
-      <hr>
+
+
+
+<!-- ==========================================================================-->
+<section id="about">
+ <div class="row">
+    <div class="col-sm-12">
+      <h2 class="theline"><span>About Us</span></h2>
+      <p class="services-p">We are young company full of enthusiasts, which are ready to accept every new challenge! We know how to achieve the best result and we will do anything possible to solve your problem! Coding nd web-designing - that's all we are! So be sure to contact us and get high quality web-product!</p>
     </div>
-    <p class="backArrow"><i class="fa fa-angle-double-left" aria-hidden="true"></i></p>
-  </div>
-  
+      <br>
+    </div>
+  <div class="services-grid">
+    <div class="service service1">
+      <i class="ti-bar-chart"></i>
+      <h4>Code That Works</h4>
+      <p>We do not just create websites, we create a connection between people and the world. We are resourceful and creative. We love to innovate. We believe that imagination has no limits. We are always a step forward in the development of new technologies.</p>
+    </div>
 
-  <div class="selectedArea">
-    <h1 :style="{ backgroundImage: 'url(' + highlightedContent.bImage + ')' }"><span>{{ highlightedContent.category }}</span></h1>
-    <div v-html="highlightedContent.copy" class="copyArea fadeIn"></div>
-  </div>
+    <div class="service service2">
+      <i class="ti-light-bulb"></i>
+      <h4>We Can Give Advice</h4>
+      <p>We call the reason why people come to the site a ‘user need’. Answering user needs is the fundamental principle on which we develop digital advice. We use data and research to discover user needs and design content or create tools to fulfil them.</p>
+    </div>
 
-</div>
+    <div class="service service3">
+      <i class="ti-money"></i>
+      <h4>Long-term relationship</h4>
+      <p>Development isn’t a service - it’s a way of living. It’s that part of your business that is always in view. Of your customers, of your partners, your employees, your family. Of you. That’s why hit-and-run is never an option. Also, we have some discounts for family members :)</p>
+    </div>
+  </div>
 </section>
-
+<br>
+<br>
+  
+<!-- ==========================================================================-->
 <section id="team">
 <div class="container">
-                    <div class="row">
-                        <div class="heading-title text-center">
-                          <br>
-                          <br>
-                          <br>
-                            <h3 class="text-uppercase">Meet our Team</h3>
-                            <p class="p-top-30 half-txt">Let us know a little bit more :) </p>
-                        </div>
+    <div class="row">
+      <div class="content-wrap">
+        <h2 class="theline"><span>Meet Our Team</span></h2>
+      <br>
+
+    </div>
 
                         <div class="col-md-4 col-sm-4">
                             <div class="team-member">
@@ -238,7 +244,11 @@
                 </div>
       </section>
 
-
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h1 class="display-3">We build websites that will build your business.</h1>
+  </div>
+</div>
 <!-- Modal -->
 <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
@@ -253,12 +263,6 @@
     </div>
   </div>
 </div>
-<div class="jumbotron jumbotron-fluid">
-  <div class="container">
-    <h1 class="display-3">We build websites that will build your business.</h1>
-  </div>
-</div>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.3.4/vue.min.js'></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
@@ -268,5 +272,6 @@
   $('#myInput').trigger('focus')
 })
   </script>
+
 </body>
 </html>
