@@ -53,11 +53,10 @@
       color:black;
     }
     .navbar.scrolled #signIn {
+      margin-top: 7px;
         background-color: #9dd3e6;
         border-color: #fff;
         color: black;
-
-        
     }
 
     #signIn {
@@ -124,6 +123,16 @@ p {
   margin: 0;
   padding: 1em 0;
   font-size: 1.4em;
+}
+.jumbotron {
+  margin-bottom: 0px;
+  background-color: #9dd3e6;
+}
+.jumbotron .h1, .jumbotron h1{
+  color: black;
+}
+.jumbotron p {
+  color: black;
 }
 .boxpF{
   color: #202529;
@@ -320,6 +329,7 @@ p {
     width: 100%;
 }
 .team-title h5 {
+  font-size: large
     margin-bottom: 0px;
     display: block;
     text-transform: uppercase;
