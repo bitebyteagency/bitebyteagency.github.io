@@ -564,7 +564,7 @@ h2.no-background span:after {
     width: 90%;
   }
   .ccbtn{
-  padding:12px 120px;
+  padding:12px 90px;
 }
 /* Media Queries */
 @media (min-width: 200px) {
